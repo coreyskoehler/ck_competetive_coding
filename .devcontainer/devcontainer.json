@@ -1,7 +1,10 @@
 {
     "name": "Development Container",
     "build": {
-        "dockerfile": "Dockerfile"
+        "dockerfile": "Dockerfile",
+        "args": {
+            "DEPS_DIR": "${localWorkspaceFolder}"
+        }
     },
     "postCreateCommand": "clangd --version",
     "remoteUser": "vscode",

@@ -1,11 +1,21 @@
 {
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabCompletion": "on",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.rulers": [
+        80
+    ],
     "files.autoSave": "onFocusChange",
     "[cpp]": {
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
     },
     "[c]": {
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-    }
+    },
+    "cmake.sourceDirectory": "/Users/coreykoehler/Desktop/ck_competitive_coding/practice_problems/at_coder/a_black_square",
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json"
 }
